@@ -22,9 +22,9 @@ const uint16_t AUDIO_TRACK  = 1;    // track number on the DY player's SD card /
 // Timing (all in milliseconds)
 const uint32_t STARTUP_DELAY_MS         = 2000;  // boot -> audio starts (lets the DY player power up)
 const uint32_t AUDIO_TO_EXTEND_DELAY_MS = 5000;  // audio starts -> actuator begins extending
-const uint32_t EXTEND_TIME_MS           = 3000;  // how long the extend relay stays on
-const uint32_t HOLD_TIME_MS             = 2000;  // pause while fully extended
-const uint32_t RETRACT_TIME_MS          = 3000;  // how long the retract relay stays on
+const uint32_t EXTEND_TIME_MS           = 2000;  // how long the extend relay stays on
+const uint32_t HOLD_TIME_MS             = 3000;  // pause while fully extended
+const uint32_t RETRACT_TIME_MS          = 2000;  // how long the retract relay stays on
 
 // Brief pause with both relays off before switching direction
 const uint32_t RELAY_DEADTIME_MS = 100;
